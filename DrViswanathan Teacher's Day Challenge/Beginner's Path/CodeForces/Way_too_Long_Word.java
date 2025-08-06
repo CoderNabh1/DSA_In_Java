@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class Main {
+public class Way_too_Long_Word {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int inp = sc.nextInt();
