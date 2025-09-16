@@ -1,9 +1,9 @@
 public class InvertPyramaind {
     public static int Logic(int r, int c) {
-        if (r == 0) {
+        if (r == 0 || c == 0) {
             return 0;
         }
-        for (int i = 0; i < r; i++) {
+        for (int i = 1; i <= r; i++) {
             System.out.print("*");
         }
         System.out.println();
@@ -11,6 +11,6 @@ public class InvertPyramaind {
     }
 
     public static void main(String[] args) {
-        Logic(4, 4);
+        Logic(5, 1);
     }
 }
