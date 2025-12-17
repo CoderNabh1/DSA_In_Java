@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class PreviousGreater {
+public class PreviousGreaterIndex {
     public static void previousGreater(int arr[]) {
 
         int prev[] = new int[arr.length];
@@ -8,17 +8,17 @@ public class PreviousGreater {
 
         for (int i = 0; i < arr.length; i++) {
 
-            while (!s.isEmpty() && s.peek() <= arr[i]) {
+            while (!s.isEmpty() && arr[s.peek()] <= arr[i]) {
                 s.pop();
             }
 
             if (s.isEmpty()) {
-                prev[i] = -1;
+                prev[i] = 1;
             } else {
-                prev[i] = s.peek();
+                prev[i] = i - s.peek();
             }
 
-            s.push(arr[i]);
+            s.push(i);
         }
 
         for (int i : prev) {
