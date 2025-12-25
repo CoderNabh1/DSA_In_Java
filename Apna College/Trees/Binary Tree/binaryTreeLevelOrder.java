@@ -34,10 +34,10 @@ public class binaryTreeLevelOrder {
             if (root == null) {
                 return;
             }
+            int count = 1;
             Queue<Node> q = new LinkedList<>();
             q.add(root);
             q.add(null);
-
             while (!q.isEmpty()) {
                 Node currNode = q.remove();
                 if (currNode == null) {
@@ -45,6 +45,7 @@ public class binaryTreeLevelOrder {
                     if (q.isEmpty()) {
                         break;
                     } else {
+                        count++;
                         q.add(null);
                     }
                 } else {
@@ -58,6 +59,7 @@ public class binaryTreeLevelOrder {
                     }
                 }
             }
+            System.out.println("Height of tree is:" + count);
         }
     }
 
