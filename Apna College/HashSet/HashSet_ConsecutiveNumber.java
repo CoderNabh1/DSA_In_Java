@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class HashSet_Intro {
+public class HashSet_ConsecutiveNumber {
     public static void main(String args[]) {
         int arr[] = { 100, 1, 2, 3, 200, 99, 23, 45 };
         // Output should be 4 (because of sequence: 99, 100) -> Wait, 1,2,3 is len 3.
