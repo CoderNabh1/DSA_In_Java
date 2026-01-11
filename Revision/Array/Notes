@@ -1,0 +1,4 @@
+Max size of Array is 10^7.
+It has Contiguous Memory Locations.
+You can'nt use For-Each loop in java for insertion of elements.
+.toArray() in ArrayList, HashSet
