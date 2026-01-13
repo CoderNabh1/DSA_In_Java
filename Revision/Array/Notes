@@ -1,4 +1,34 @@
 Max size of Array is 10^7.
+
 It has Contiguous Memory Locations.
+
 You can'nt use For-Each loop in java for insertion of elements.
+
 .toArray() in ArrayList, HashSet
+
+To remove duplicates add the last element by your own.
+
+For second Largest element in the array find the largest and then compare it with other other with a not equal to case.
+
+To left rotate a array K times you should first do K = K%Size of Array as it decreases the no. of array rotations.
+
+For right rotation do k = n-k for right rotation.
+
+Optimised solution of left rotating array is to first rotate the two sub arrays and then the full --> Total no. of rotations = 3.
+Explanaton of this Algo. --> 
+1. Reverse the subarray to 0 to k
+2. Reverse the another subarray to k to arr.length
+3. Reverse the Whole subarrray
+
+To reverse a element we use two pointer approach
+While(start < end)
+{
+    int temp = arr[start];
+    arr[start] = arr[end];
+    arr[end] = temp;
+    start++;
+    end--;
+}
+
+
+
