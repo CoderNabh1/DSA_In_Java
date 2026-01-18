@@ -44,3 +44,4 @@ Sum of Number from 1 to n = (n*n+1)/2
 if you XOR same Numbers the XOR of that is 0.
 0^1 = 0 and you have to add the last element by your own which will be +1 of the arr.length.
 
+When you have Pair and you want to find Unnique element XOR can be a good idea.
