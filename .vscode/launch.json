@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Filter_Collect",
+            "request": "launch",
+            "mainClass": "Revision.Array.Streams.Filter_Collect",
+            "projectName": "DSA_In_Java_c9cbb116"
+        },
+        {
+            "type": "java",
             "request": "attach",
             "name": "Java",
             "port": 5005,
