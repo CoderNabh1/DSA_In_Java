@@ -144,3 +144,105 @@ Majority Element
         in last you will have a element now check that the element you recieved is really a major element or not.
 
 
+Maximum SubArray Sum
+    Better Approach --:
+    1. We will add the next element directly in the second loop.
+    2. check for maxElement
+
+    Kadan's Algorithm:--
+    1. calculate sum
+    2. update maxSum accordingly
+        1. also update start
+        2. end of array
+    3. whenver sum reaches less than 0
+        1. reset sum = 0
+        2. The next element is always the candidate so update 
+            tempstart = i+1
+        
+
+When you want to insert remaining elements in the array 
+    1. take a while loop(i<arr.length)
+    {
+        arr[i++] = anyArray[j++]
+    }
+
+
+Buy Time to Buy Stocks:--
+   1. Look for the maximum Profit from starting
+   2. don't just take maximum and minimum of array. --> [3,10,1,2]
+   3. See for the minimum price in the searching region accordingly.
+
+
+Permutations
+    Approach-1:--
+        1. take a data strucute and a freq array and answer list to sotre all the permutations.
+        2. Mark the freq array as true with the if condition
+        3. In this data strucutre you first input element you choose to start from. 
+        4. start recursion
+        5. then remove the the last element of the data strucutre
+        6. unmark the freq array
+        7. Use the base case that if the data structure has all the element then
+            1.  add it to the answer.
+            2.  return
+
+Next Permutations
+    Approach-1:--
+
+    Solution:--    
+
+
+Leader in Array --> greater than all the elements to its right.
+    1. The last element will always be the leader.
+    2. Treaverse the array from last.
+    3. Look and update the biggest element from last.
+    4. Reverse the leader Array after finishing.
+
+
+Longest Consecutive Sequence:-
+    Approach --> 1
+    1. Sort The Array.
+    2. arr[i] - arr[i - 1] == 1, count it
+    3. arr[i] - arr[i - 1] == 0,  //Duplicate: skip it, don't break the sequence
+    4. Gap found: check if current sequence was the longest
+    // Final check for sequence ending at the very last element.
+
+    Approach --> 2
+    1. Only start counting if 'num' is the beginning of a sequence.
+
+Set Matrix Zeroes
+    Approach --> 1
+    1. Iterate the matrix and and if 0 is found.
+    2. move through rows and make 1 --> -1 and leave Zeroes.
+    3. move through columns and make 1 --> -1 and leave Zeroes.
+    4. Finally run the whole loop and make all -1 --> 0.
+
+    Approach --> 2
+    1. Iterate the matrix and and if 0 is found.
+        1. Store the it's index in two Arraylist.
+    2. After completion of the first loop run a while loop
+        1. move through rows and make those elements 0.
+        2. move through rows and make those elements 0.
+
+    Approach --> 3
+
+
+Rotate Matrix By 90
+    Approach --> 1
+    1. Observer that the result after rotating your matrix
+        1. In this start looking the pattern try to find it
+        2. Make a forula for it
+    2. here afer observing 
+        1. the j or original matrix is = i of new matrix.
+        2. the i of orginal matrix is = n-i-1; --> I derived this formula.
+
+    Approach --> 2
+    1. Transpose of the Matrix
+    2. Reverse all the rows using two pointer.
+
+
+Transpose of a Matrix
+    1. It means row becomes column and column becomes row.
+    2. arr[i][j] = arr[j][i] basically you have to swap using temp.
+    3.  also take care of the inner loop it will run acc. to outer loop.
+
+

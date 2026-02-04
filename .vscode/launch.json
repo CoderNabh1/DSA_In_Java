@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Revision.Array.LongestConsecutiveSequence.Solution",
+            "projectName": "DSA_In_Java_c9cbb116"
+        },
+        {
+            "type": "java",
+            "name": "BruteForce",
+            "request": "launch",
+            "mainClass": "Revision.Array.LongestConsecutiveSequence.BruteForce",
+            "projectName": "DSA_In_Java_c9cbb116"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "DSA_In_Java_c9cbb116"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Revision.Array.MaxSubArraySum.Solution",
+            "projectName": "DSA_In_Java_c9cbb116"
+        },
+        {
+            "type": "java",
             "name": "Filter_Collect",
             "request": "launch",
             "mainClass": "Revision.Array.Streams.Filter_Collect",

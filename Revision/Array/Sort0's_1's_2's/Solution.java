@@ -11,7 +11,7 @@ public class Solution {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
-
+        sc.close();
         int low = 0;
         int mid = 0;
         int high = arr.length - 1;
