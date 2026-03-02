@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Fibonaci_Memoization",
+            "request": "launch",
+            "mainClass": "Fibonaci_Memoization",
+            "projectName": "DSA_In_Java_c9cbb116"
+        },
+        {
+            "type": "java",
             "name": "Solution",
             "request": "launch",
             "mainClass": "Revision.Array.LongestConsecutiveSequence.Solution",
