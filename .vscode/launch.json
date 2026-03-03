@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Optimized_Tabulation",
+            "request": "launch",
+            "mainClass": "FibonaciSequence.Tabulation.Optimized.Optimized_Tabulation",
+            "projectName": "DSA_In_Java_c9cbb116"
+        },
+        {
+            "type": "java",
+            "name": "Tabulation",
+            "request": "launch",
+            "mainClass": "FibonaciSequence.Tabulation.Tabulation",
+            "projectName": "DSA_In_Java_c9cbb116"
+        },
+        {
+            "type": "java",
             "name": "Fibonaci_Memoization",
             "request": "launch",
             "mainClass": "Fibonaci_Memoization",

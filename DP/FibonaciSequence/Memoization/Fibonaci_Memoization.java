@@ -1,4 +1,4 @@
-package FibonaciSequence;
+package FibonaciSequence.Memoization;
 
 import java.util.Scanner;
 
